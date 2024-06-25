@@ -31,10 +31,7 @@ plugins:
 aux_links:
   "GitHub Repository": "https://github.com/muskaanX/Hexagon"
 
-# Include custom CSS
-assets:
-  css:
-    - "project-hexagon/assets/css/custom.css"
+color_scheme: dark
 
 nav:
   - title: "About"
@@ -50,6 +47,19 @@ nav:
         url: "/do-it-yourself/overview"
       - title: "3D Printing"
         url: "/do-it-yourself/3d-printing"
+      - title: "Electronics"
+        url: "/do-it-yourself/electronics"
+      - title: "Bill of Materials"
+        url: "/do-it-yourself/bill-of-materials"
+      - title: "Firmware"
+        url: "/do-it-yourself/firmware"
+      - title: "Assembly"
+        url: "/do-it-yourself/assembly"
+        children:
+        - title: "PCB"
+          url: "/assembly/1-pcb"
+        - title: "ESP32"
+          url: "/assembly/2-esp32"
   - title: "Iterations"
     url: "/iterations"
     children:
@@ -59,6 +69,10 @@ nav:
         url: "/iterations/version-2"
       - title: "Version 3"
         url: "/iterations/version-3"
+  - title: "Advanced"
+    url: "/advanced"
+  - title: "Animations"
+    url: "/animation-template"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

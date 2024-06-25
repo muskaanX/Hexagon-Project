@@ -1,0 +1,40 @@
+/* Custom color palette */
+$dark-background: #120118;
+$medium-background: #1b0422;
+$medium-purple: #580574;
+$light-purple: #C147E9;
+$light-grayish-purple: #E5B8F4;
+
+$sidebar-background-color: $dark-background;
+$sidebar-link-color: $light-grayish-purple;
+$sidebar-link-hover-color: $light-purple;
+/* Sidebar link hover effect */
+.sidebar-nav a:hover {
+    font-weight: bold;
+  }
+
+/* Search bar hover effect */
+#search-input:hover,
+#search-input:focus {
+  box-shadow: 0 0 10px rgba(236, 235, 236, 0.5); /* Add a purple glow around the search bar */
+  border-color: rgba(250, 246, 252, 0.5); /* Optional: change the border color */
+}
+
+$color-scheme: dark;
+$body-background-color: $medium-background;
+$body-heading-color: $light-grayish-purple;
+$body-text-color: $light-grayish-purple;
+$link-color: $light-purple;
+$nav-child-link-color: $light-purple;
+$sidebar-color: $dark-background;
+$base-button-color: $medium-purple;
+$btn-primary-color: $light-purple;
+$code-background-color: #31343f; // OneDarkJekyll default for syntax-one-dark-vivid
+$code-linenumber-color: #dee2f7; // OneDarkJekyll .nf for syntax-one-dark-vivid
+$feedback-color: darken($dark-background, 3%);
+$table-background-color: $medium-purple;
+$search-background-color: $medium-purple;
+$search-result-preview-color: $dark-background;
+$border-color: lighten($dark-background, 10%);
+
+@import "./vendor/OneDarkJekyll/syntax"; // this is the one-dark-vivid atom syntax theme

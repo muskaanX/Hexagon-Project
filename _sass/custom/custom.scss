@@ -1,0 +1,28 @@
+// custom SCSS (or CSS) goes here
+
+@import "./color_schemes/dark";
+
+/* Custom color palette */
+$dark-background: #2D033B;
+$medium-purple: #810CA8;
+$light-purple: #C147E9;
+$light-grayish-purple: #E5B8F4;
+
+/* Override default variables */
+$color-scheme: dark;
+$body-background-color: $dark-background;
+$body-heading-color: $light-grayish-purple;
+$body-text-color: $light-grayish-purple;
+$link-color: $light-purple;
+$nav-child-link-color: $medium-purple;
+$sidebar-color: $dark-background;
+$base-button-color: $medium-purple;
+$btn-primary-color: $light-purple;
+$code-background-color: #31343f; // OneDarkJekyll default for syntax-one-dark-vivid
+$code-linenumber-color: #dee2f7; // OneDarkJekyll .nf for syntax-one-dark-vivid
+$feedback-color: darken($dark-background, 3%);
+$table-background-color: $medium-purple;
+$search-background-color: $medium-purple;
+$search-result-preview-color: $dark-background;
+$border-color: lighten($dark-background, 10%);
+

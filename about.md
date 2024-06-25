@@ -7,7 +7,9 @@ nav_order: 1
 # Welcome to Project Hexagon!
 <br>
 Project Hexagon features a hexagonal graph model, one that is expandable via attachments, through which various patterns can be traced alongside the edges with the LED strips attached to them. Use the simulation interface below to see for yourself what this model can do!
+
 <br>
+
 <p align="center">
   <img src="./assets/images/hexagon.png" alt="Hexagon Simulation">
 </p>
