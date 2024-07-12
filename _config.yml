@@ -23,6 +23,10 @@ github_username:  muskaanX
 
 baseurl: "/about"
 
+assets:
+  sources:
+    - _assets
+    
 # Build settings
 theme: "just-the-docs"
 plugins:
@@ -33,6 +37,9 @@ aux_links:
 
 color_scheme: dark
 
+include:
+  - "favicon.ico"
+  
 nav:
   - title: "About"
     url: "/about"
@@ -71,8 +78,12 @@ nav:
         url: "/iterations/version-3"
   - title: "Advanced"
     url: "/advanced"
+  - title: "Simulation"
+    url: "/simulation"
+  - title: "Gallery"
+    url: "/gallery"
   - title: "Animations"
-    url: "/animation-template"
+    url: "/animation"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -10,12 +10,15 @@ nav_order: 2
 <br>
 This section works to ensure that you have everything necessary for 3D printing the necessary components for the main build of this project. 
 <br>
+<br>
+**Hexagon Model**
+<iframe allowfullscreen width="640" height="480" loading="lazy" frameborder="0" src="https://p3d.in/e/BVGAa+load"></iframe>
 
 <br>
 **Node Module for Hexagon**
 <br>
 
-<iframe allowfullscreen width="640" height="480" loading="lazy" frameborder="0" src="https://p3d.in/e/4pyfj"></iframe>
+<iframe allowfullscreen width="640" height="480" loading="lazy" frameborder="0" src="https://p3d.in/e/4pyfj+load"></iframe>
 The above provided module requires __g in filament, and (PLA/PETG) filament has been used.
 <br>
 
